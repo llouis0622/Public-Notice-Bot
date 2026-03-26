@@ -19,9 +19,9 @@ Files: src/db/models.py, src/db/vector_store.py
 [x] Step 1: postings 테이블 + chunks 테이블 모델 작성
 [x] Step 2: pgvector extension 활성화 확인
 [x] Step 3: 마이그레이션 실행 확인
-[ ] Step 4: 커밋
+[x] Step 4: 커밋
 
-## Task 2: 베이스 크롤러 + 부산시 크롤러
+## Task 2: 베이스 크롤러 + 부산시 크롤러  ← 내일 시작점
 Files: src/crawler/base.py, src/crawler/busan_gov.py
       tests/test_crawler.py
 
