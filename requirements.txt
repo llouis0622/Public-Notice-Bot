@@ -4,3 +4,5 @@ lxml
 sqlalchemy
 apscheduler
 python-dotenv
+pgvector
+psycopg2-binary
