@@ -11,3 +11,5 @@ uvicorn
 pydantic
 openai
 httpx
+celery[redis]
+redis
