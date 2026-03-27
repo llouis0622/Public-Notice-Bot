@@ -7,6 +7,9 @@ KNOWN_SOURCES = {"busan_gov", "busan_youth"}
 
 
 def trigger_crawl(sources):
+    from src.tasks.crawler_tasks import crawl_source_task
+    for source in sources:
+        crawl_source_task.delay(source)
     return {"queued": sources}
 
 
