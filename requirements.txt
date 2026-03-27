@@ -6,3 +6,8 @@ apscheduler
 python-dotenv
 pgvector
 psycopg2-binary
+fastapi
+uvicorn
+pydantic
+openai
+httpx
